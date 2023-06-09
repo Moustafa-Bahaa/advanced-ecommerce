@@ -1,0 +1,36 @@
+{
+  "MobilePhones": [
+    {
+      "id": 3,
+      "name": "iphone 11",
+      "category": "mobiles",
+      "image": "https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Image.png",
+      "desc": "64 gigabyte",
+      "price": 1222
+    },
+    {
+      "id": 4,
+      "name": "iphone 11",
+      "category": "mobiles",
+      "image": "https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Image.png",
+      "desc": "64 gigabyte",
+      "price": 1222
+    },
+    {
+      "name": "wefwe",
+      "category": "ewfewf",
+      "image": "https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Image.png",
+      "desc": "ewfwef",
+      "price": "12",
+      "id": 7
+    },
+    {
+      "name": "iphone 11",
+      "category": "mobiles",
+      "image": "https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Image.png",
+      "desc": "512gb",
+      "price": 1100,
+      "id": 8
+    }
+  ]
+}
