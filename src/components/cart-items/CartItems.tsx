@@ -13,6 +13,7 @@ const CartItems = (props) => {
     total += item.totalPrice}) 
 
   const dispatch = useDispatch()
+  
   const handleRemoveFromCart = (id) => {
     dispatch(removeFromCart(id))
   }
