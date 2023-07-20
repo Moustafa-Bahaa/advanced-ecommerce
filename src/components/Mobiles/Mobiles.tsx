@@ -1,72 +1,45 @@
-import { useLayoutEffect, useState } from 'react';
-import { MobilesModel } from '../../models/mobilesModel';
-import { deleteProduct, getAllMobiles } from '../../services/mobilesService';
-import "../../styles/shared.css"
-import { useDispatch } from 'react-redux';
-import { addToCart } from '../../redux/productSlice';
 import { Button } from 'primereact/button';
 import { useNavigate } from "react-router-dom"
+import { ProgressSpinner } from 'primereact/progressspinner';
+import "../../styles/mobiles.css"
 
-const Mobiles = () => {
+const Mobiles = ({ priceRange, loading, products, searchQuery, category, handleAddToCart, handelDelete }) => {
     const navigate = useNavigate()
-    const dispatch = useDispatch()
-    const handleAddToCart = (product) => {
-        dispatch(addToCart(product))
-    }
-
-
-    const [products, setProducts] = useState<MobilesModel[]>()
-    const [loading, setLoading] = useState(true);
-
-
-    const fetchAllMobiles = () => {
-        setLoading(true);
-        getAllMobiles().then((mobiles: MobilesModel[]) => {
-            setProducts(mobiles);
-            setLoading(false);
-        })
-    }
-    useLayoutEffect(() => {
-        fetchAllMobiles();
-    }, []);
 
     if (loading) {
-        return <div >Loading ...</div>;
+        return <ProgressSpinner style={{width: '50px', height: '50px'}} strokeWidth="8" fill="var(--surface-ground)" animationDuration=".5s" />;
     }
-
-    const handelDelete = (id) => {
-        deleteProduct(id).then(() => {
-            fetchAllMobiles()
-        })
-    }
-
 
     return (
-        <div className='products'>
-           
-
-            <div className="container">
-                {products.map((product) => (
-                    < div className="product-container" key={product.id} >
-                        <div className="product">
-                            <img src={product.image} alt="" width="250px" height="250px" />
-                            <div className="content">
-                                <h4>{product.category}</h4>
-                                <h3><a href="#">{product.name}</a></h3>
-                                <p className='product-desc'>{product.desc}</p>
-                                <span><a href="#">{product.price}$</a></span>
-                            </div>
-                            <div className="link">
-                                <a href="#" onClick={() => handelDelete(product.id)}>Delete Product</a>
-                                <a href="#" onClick={() => handleAddToCart(product)}>Add to Cart</a>
+        <div className='mobiles'>
+            <div className="contain">
+                {products.filter(product => { return product.price < parseInt(priceRange, 10) }).filter((product) => {
+                    return product.name
+                        .toLowerCase().includes(searchQuery.toLowerCase())
+                }).filter((product) => {
+                    if (category === "all") { return products } else {
+                        return product.category === category
+                    }
+                }).map((product) => (
+                    <div className="card-container" key={product.id}>
+                        <div className="card-products">
+                            <div className="card-product">
+                                <img src={product.image} width="250px" height="250px" alt="" />
+                                <div className="card-content">
+                                    <h3><a >{product.name}</a></h3>
+                                    <span><a >{product.price}$</a></span>
+                                </div>
+                                <div className="link">
+                                    <button onClick={() => handelDelete(product.id)}>Delete Item</button>
+                                    <button onClick={() => handleAddToCart(product)}>Add to Cart</button>
+                                </div>
                             </div>
                         </div>
-                    </div >
-
+                    </div>
                 ))}
             </div>
-            <div>
-                <Button label="Add New Mobile   " onClick={() => navigate("/add")} />
+            <div className='add-item'>
+                <Button label="Add New Item " onClick={() => navigate("/add")} />
             </div>
         </div>
 

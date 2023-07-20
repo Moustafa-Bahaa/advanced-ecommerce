@@ -1,36 +1,132 @@
 {
   "MobilePhones": [
     {
-      "id": 3,
-      "name": "iphone 11",
-      "category": "mobiles",
-      "image": "https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Image.png",
+      "id": 1,
+      "name": "iphone 14 pro max",
+      "category": "apple",
+      "image": "https://m.media-amazon.com/images/I/71yzJoE7WlL._AC_UL320_.jpg",
       "desc": "64 gigabyte",
-      "price": 1222
+      "price": 1500
+    },
+    {
+      "id": 2,
+      "name": "iphone 13",
+      "category": "apple",
+      "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._AC_UL320_.jpg",
+      "desc": "64 gigabyte",
+      "price": 1000
+    },
+    {
+      "name": "samsung s21 ",
+      "category": "samsung",
+      "image": "https://m.media-amazon.com/images/I/71ygl3z8VlL._AC_UL320_.jpg",
+      "desc": "ewfwefwefewf",
+      "price": 600,
+      "id": 3
     },
     {
       "id": 4,
+      "name": "iphone 14",
+      "category": "apple",
+      "image": "https://m.media-amazon.com/images/I/619f09kK7tL._AC_UL320_.jpg",
+      "desc": "64 gigabyte",
+      "price": 1100
+    },
+    {
+      "id": 5,
+      "name": "iphone 12 pro max",
+      "category": "apple",
+      "image": "https://freepngimg.com/save/133325-12-apple-iphone-png-image-high-quality/600x1000",
+      "desc": "64 gigabyte",
+      "price": 1200
+    },
+    {
+      "name": "samsung s22 ultra ",
+      "category": "samsung",
+      "image": "https://m.media-amazon.com/images/I/61U6oC65TTL._AC_UL320_.jpg",
+      "desc": "ewfwefwefewf",
+      "price": 970,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "iphone 14 pro",
+      "category": "apple",
+      "image": "https://m.media-amazon.com/images/I/61XO4bORHUL._AC_UL320_.jpg",
+      "desc": "64 gigabyte",
+      "price": 1300
+    },
+    {
+      "id": 8,
+      "name": "iphone xs max",
+      "category": "apple",
+      "image": "https://m.media-amazon.com/images/I/710ktGENY6L._AC_UL320_.jpg",
+      "desc": "64 gigabyte",
+      "price": 800
+    },
+    {
+      "id": 9,
+      "name": "iphone 12",
+      "category": "apple",
+      "image": "https://m.media-amazon.com/images/I/71fVoqRC0wL._AC_UL320_.jpg",
+      "desc": "64 gigabyte",
+      "price": 900
+    },
+    {
+      "id": 10,
       "name": "iphone 11",
-      "category": "mobiles",
+      "category": "apple",
       "image": "https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Image.png",
       "desc": "64 gigabyte",
-      "price": 1222
+      "price": 800
     },
     {
-      "name": "wefwe",
-      "category": "ewfewf",
-      "image": "https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Image.png",
-      "desc": "ewfwef",
-      "price": "12",
-      "id": 7
+      "name": "samsung s23 ",
+      "category": "samsung",
+      "image": "https://m.media-amazon.com/images/I/61neRCwtBNL._AC_UL320_.jpg",
+      "desc": "ewfwefwefewf",
+      "price": 700,
+      "id": 11
     },
     {
-      "name": "iphone 11",
-      "category": "mobiles",
-      "image": "https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Image.png",
-      "desc": "512gb",
-      "price": 1100,
-      "id": 8
+      "id": 12,
+      "name": "samsung s23 +",
+      "category": "samsung",
+      "image": "https://m.media-amazon.com/images/I/71hsE7tFasL._AC_UL320_.jpg",
+      "desc": "64 gigabyte",
+      "price": 800
+    },
+    {
+      "id": 13,
+      "name": "samsung s23 ultra",
+      "category": "samsung",
+      "image": "https://m.media-amazon.com/images/I/71lMeBh52wL._AC_UL320_.jpg",
+      "desc": "64 gigabyte",
+      "price": 1000
+    },
+    {
+      "name": "samsung a03",
+      "category": "samsung",
+      "image": "https://m.media-amazon.com/images/I/61o1Q2JIeDL._AC_UL320_.jpg",
+      "desc": "ewfwefwefewf",
+      "price": 150,
+      "id": 14
+    },
+    {
+      "id": 15,
+      "name": "samsung a04",
+      "category": "samsung",
+      "image": "https://m.media-amazon.com/images/I/81JUZpUBL3L._AC_UL320_.jpg",
+      "desc": "64 gigabyte",
+      "price": 100
+    },
+    {
+      "id": 16,
+      "name": "samsung a13",
+      "category": "samsung",
+      "image": "https://m.media-amazon.com/images/I/71FMvj8+LSL._AC_UL320_.jpg",
+      "desc": "64 gigabyte",
+      "price": 200
     }
   ]
 }

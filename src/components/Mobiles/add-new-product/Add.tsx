@@ -20,18 +20,16 @@ const Add = () => {
         setAddProductModel(_addProductModel);
     }, [addProductModel])
 
-    
 
     const onSaveCicked = () => {
-        if(addProductModel.image && addProductModel.category && addProductModel.desc &&addProductModel.name && addProductModel.price){
+        if (addProductModel.image && addProductModel.category && addProductModel.desc && addProductModel.name && addProductModel.price) {
             addNewProduct(addProductModel)
-            .then(() => {
-                navigate("/")
-            });
-        }else{
+                .then(() => {
+                    navigate("/mobiles")
+                });
+        } else {
             alert("all fields required ")
         }
-       
     }
 
     return (
@@ -40,11 +38,11 @@ const Add = () => {
                 <h1>New Product</h1>
             </div>
             <div className="form-inputs">
-                <InputText placeholder="image url" value={addProductModel.image} name={"image"} onChange={handleOnChange} />
-                <InputText placeholder="category" value={addProductModel.category} name={"category"} onChange={handleOnChange} />
-                <InputText placeholder="name" value={addProductModel.name} name={"name"} onChange={handleOnChange} />
-                <InputText placeholder="description" value={addProductModel.desc} name={"desc"} onChange={handleOnChange} />
-                <InputNumber placeholder="price" value={addProductModel.price} name={"price"} onChange={(e)=> setAddProductModel({ ...addProductModel, price: e.value })} />
+                <InputText placeholder="image url" value={addProductModel.image || ""} name={"image"} onChange={handleOnChange} />
+                <InputText placeholder="category" value={addProductModel.category || ""} name={"category"} onChange={handleOnChange} />
+                <InputText placeholder="name" value={addProductModel.name || ""} name={"name"} onChange={handleOnChange} />
+                <InputText placeholder="description" value={addProductModel.desc || ""} name={"desc"} onChange={handleOnChange} />
+                <InputNumber placeholder="price" value={addProductModel.price || 0} name={"price"} onChange={(e) => setAddProductModel({ ...addProductModel, price: e.value })} />
             </div>
             <div>
                 <Button label="Save" onClick={onSaveCicked} />

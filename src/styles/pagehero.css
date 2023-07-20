@@ -1,0 +1,23 @@
+.page-hero {
+  background: var(--clr-primary-10);
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  color: var(--clr-primary-1);
+  margin-bottom: 3rem;
+}
+a {
+  color: var(--clr-primary-3);
+  padding: 0.5rem;
+  transition: var(--transition);
+}
+a:hover {
+  color: var(--clr-primary-1);
+}
+
+@media (min-width: 1280px) {
+  .page-hero-center {
+    transform: translateY(0) !important;
+  }
+}

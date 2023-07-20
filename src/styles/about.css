@@ -1,0 +1,45 @@
+section {
+  display: grid;
+  gap: 4rem;
+  padding: 0 !important;
+}
+section img {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius);
+  height: 500px;
+  object-fit: cover;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+section p {
+  line-height: 2;
+  max-width: 45em;
+  margin: 0 auto;
+  margin-top: 2rem;
+  color: var(--clr-grey-5);
+}
+article .title {
+  text-align: left;
+}
+
+.title .underline {
+  text-align: left;
+  margin-left: 0 !important;
+}
+@media (min-width: 992px) {
+  section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .about-center {
+    transform: translateY(0) !important;
+  }
+}

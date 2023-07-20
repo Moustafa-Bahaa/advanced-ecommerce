@@ -29,8 +29,8 @@ const cartSlice = createSlice({
             const removeItem = state.cartItems.filter((item) => item.id !== action.payload);
             state.cartItems = removeItem;
             state.totalQuantity--
-
         },
+        
         handleIncrement(state, action) {
             const item = state.cartItems.find((item) => item.id === action.payload);
             item.quantity++;
