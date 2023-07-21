@@ -6,16 +6,16 @@ import "../../styles/mobiles.css"
 const Mobiles = ({ priceRange, loading, products, searchQuery, category, handleAddToCart, handelDelete }) => {
     const navigate = useNavigate()
 
+
     if (loading) {
-        return <ProgressSpinner style={{width: '50px', height: '50px'}} strokeWidth="8" fill="var(--surface-ground)" animationDuration=".5s" />;
+        return <ProgressSpinner style={{ width: '50px', height: '50px' }} strokeWidth="8" fill="var(--surface-ground)" animationDuration=".5s" />;
     }
 
     return (
         <div className='mobiles'>
             <div className="contain">
                 {products.filter(product => { return product.price < parseInt(priceRange, 10) }).filter((product) => {
-                    return product.name
-                        .toLowerCase().includes(searchQuery.toLowerCase())
+                    return product.name.toLowerCase().includes(searchQuery.toLowerCase())
                 }).filter((product) => {
                     if (category === "all") { return products } else {
                         return product.category === category
