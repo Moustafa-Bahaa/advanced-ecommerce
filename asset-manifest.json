@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Moustafa-Bahaa/advanced-ecommerce/static/css/main.89252198.css",
+    "main.js": "/Moustafa-Bahaa/advanced-ecommerce/static/js/main.9af1053f.js",
+    "static/js/787.11cfd65f.chunk.js": "/Moustafa-Bahaa/advanced-ecommerce/static/js/787.11cfd65f.chunk.js",
+    "static/media/color.png": "/Moustafa-Bahaa/advanced-ecommerce/static/media/color.6441e63a57ccc5105bad.png",
+    "index.html": "/Moustafa-Bahaa/advanced-ecommerce/index.html",
+    "main.89252198.css.map": "/Moustafa-Bahaa/advanced-ecommerce/static/css/main.89252198.css.map",
+    "main.9af1053f.js.map": "/Moustafa-Bahaa/advanced-ecommerce/static/js/main.9af1053f.js.map",
+    "787.11cfd65f.chunk.js.map": "/Moustafa-Bahaa/advanced-ecommerce/static/js/787.11cfd65f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89252198.css",
+    "static/js/main.9af1053f.js"
+  ]
+}
