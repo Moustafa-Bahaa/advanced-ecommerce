@@ -11,7 +11,7 @@ const Hero = () => {
       </h1>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis praesentium, inventore iste sit est sapiente rem facere eius incidunt fugiat.
       </p>
-      <Link to="/mobiles" className="btn hero-btn">shop now</Link>
+      <Link to="/products" className="btn hero-btn">shop now</Link>
     </article>
     <article className="img-container">
       <img src="https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjIzfHxpcGhvbmUlMjBzdG9yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="nice table" className="main-img" />
