@@ -52,7 +52,7 @@ Download or clone this repo and run the following command in the terminal:
 1. Clone the repository
 
 ```
-git clone https://github.com/masudranashawon/tech-alpha.git](https://github.com/Moustafa-Bahaa/advanced-ecommerce.git
+git clone https://github.com/Moustafa-Bahaa/ecommerceo-frontend.git
 ```
 
 2. Navigate to the project directory
