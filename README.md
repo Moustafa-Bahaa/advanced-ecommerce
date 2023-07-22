@@ -7,7 +7,7 @@ Ecommerceo is an online Mobile phones store that offers the latest and greatest 
 <br/>
 ## Demo
 frontend :
-[https://reactjs-ecommerce-app.vercel.app/](https://commerceo-frontend.vercel.app/)
+https://commerceo-frontend.vercel.app/
 <br>
 json server :
 https://ecommerco-backend.vercel.app/MobilePhones
