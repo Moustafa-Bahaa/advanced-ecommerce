@@ -25,7 +25,7 @@ const Add = () => {
         if (addProductModel.image && addProductModel.category && addProductModel.desc && addProductModel.name && addProductModel.price) {
             addNewProduct(addProductModel)
                 .then(() => {
-                    navigate("/mobiles")
+                    navigate("/products")
                 });
         } else {
             alert("all fields required ")
