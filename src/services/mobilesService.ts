@@ -2,7 +2,7 @@ import axios, { AxiosError } from 'axios';
 import { MobilesModel } from '../models/mobilesModel';
 
 
-const MOBILEPHONES_URL = "http://localhost:5000/MobilePhones/";
+const MOBILEPHONES_URL = "https://commerceo-two.vercel.app/MobilePhones";
 
 
 export const getAllMobiles = async (): Promise<MobilesModel[]> => {
