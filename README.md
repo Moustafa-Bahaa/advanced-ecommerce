@@ -1,7 +1,6 @@
-<div align="center"><h2>ecommerceo FRONTEND</h2></div>
+<div align="center"><h2>ecommerceo frontend </h2></div>
 
 An Ecommerce Website made with React.js , redux toolkit , typescript , primereact.
-
 
 ## Demo
 frotnend :
@@ -9,8 +8,6 @@ frotnend :
 <br>
 backend :
 https://ecommerco-backend.vercel.app/MobilePhones
-
-
 <br>
 <div>
 <h3>🚀 Features</h3>
@@ -22,6 +19,7 @@ https://ecommerco-backend.vercel.app/MobilePhones
 <li>Search Functionality To Find Product Directly</li>
 <li>different filter methods like price range and product category </li>
 <li>sorting with price from low price  to high price and high price to low price </li>
-<li></li>
 </ol>
 </div>
+<br>
+<h3> Screen shots</h3>
