@@ -9,25 +9,20 @@ Ecommerceo is an online Mobile phones store that offers the latest and greatest 
 frontend :
 [https://reactjs-ecommerce-app.vercel.app/](https://commerceo-frontend.vercel.app/)
 <br>
-backend :
+json server :
 https://ecommerco-backend.vercel.app/MobilePhones
 <br>
 <div>
 <br>
-  Tools
+  
+ ### Technologies :
 
-React.js,  Redux Toolkit, Axios, PrimeReact , typescript
-<br>
-<h3> Screen shots</h3>
+- React.js
+- Redux Toolkit
+- Axios
+- typescripts
+- PrimeReact
 
-<h2>1.Home Page</h2>
-<img src="https://github.com/Moustafa-Bahaa/car-agency/assets/119801854/19bd4e4d-7b97-4b82-805c-9ccec921a1cf"  />
-
-<h2>2.About Page</h2>
-<img src="https://github.com/Moustafa-Bahaa/car-agency/assets/119801854/22214468-db67-4190-a272-eaca1bfd1ad9"  />
-
-<h2>3.Products Page</h2>
-<img src="https://github.com/Moustafa-Bahaa/advanced-ecommerce/assets/119801854/cd34a10e-cc68-4d58-a06d-739e0a864888"  />
 <br>
 <h3>🚀 Features</h3>
 <ol>
@@ -44,6 +39,19 @@ React.js,  Redux Toolkit, Axios, PrimeReact , typescript
 <li>sorting with price from low price  to high price and high price to low price </li>
 </ol>
 </div>
+<br>
+<h3> Screen shots</h3>
+
+<h2>1.Home Page</h2>
+<img src="https://github.com/Moustafa-Bahaa/car-agency/assets/119801854/19bd4e4d-7b97-4b82-805c-9ccec921a1cf"  />
+
+<h2>2.About Page</h2>
+<img src="https://github.com/Moustafa-Bahaa/car-agency/assets/119801854/22214468-db67-4190-a272-eaca1bfd1ad9"  />
+
+<h2>3.Products Page</h2>
+<img src="https://github.com/Moustafa-Bahaa/advanced-ecommerce/assets/119801854/cd34a10e-cc68-4d58-a06d-739e0a864888"  />
+<br>
+
 
 ### How to use this repo?
 
